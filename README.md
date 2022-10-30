@@ -1,2 +1,2 @@
 # NMDSuite
-Toolkit for converting and creating nmd files for SCVI
+Utility for converting and creating nmd files for SCVI
