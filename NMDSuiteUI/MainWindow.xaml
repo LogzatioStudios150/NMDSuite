@@ -1,0 +1,282 @@
+<Window x:Name="MainWin" x:Class="NMDSuite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:commands="clr-namespace:NMDSuite.Commands"
+        xmlns:local="clr-namespace:NMDSuite"
+        
+        mc:Ignorable="d"
+        Title="NMD Suite" Height="940" Width="1200" WindowStartupLocation="CenterScreen" Background="Transparent" Icon="/icon.png" Loaded="Window_Loaded" Closing="Window_Closing" >
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="CommandBindingNew_CanExecute" Executed="CommandBindingNew_Executed"/>
+        <CommandBinding Command="Open" CanExecute="CommandBindingOpen_CanExecute" Executed="CommandBindingOpen_Executed"/>
+        <CommandBinding Command="commands:Commands.NMDTemplate" CanExecute="CommandBindingNMDTemplate_CanExecute" Executed="CommandBindingNMDTemplate_Executed"/>
+        <CommandBinding Command="commands:Commands.Search" CanExecute="CommandBindingSearch_CanExecute" Executed="CommandBindingSearch_Executed"/>
+        <CommandBinding Command="commands:Commands.Export" CanExecute="CommandBindingExport_CanExecute" Executed="CommandBindingExport_Executed"/>
+
+    </Window.CommandBindings>
+    
+    
+    
+    <Grid x:Name="MainGrid"  Background="#FF232323">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="334"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            
+            <RowDefinition Height="27"/>
+        </Grid.RowDefinitions>
+
+
+       
+
+
+
+
+        <Menu Grid.ColumnSpan="4" Grid.Row="0">
+            <MenuItem Header="File" FontWeight="Light">
+                <MenuItem x:Name="NewBtn" Header="New" FontWeight="Light" Icon="➕">
+                    <MenuItem x:Name="NewFromNMDBtn" Header="From NMD" FontWeight="Light" Command="New" ToolTip="Create project from Existing NMD" Click="NewFromNMDBtn_Click" Icon="📄"/>
+                    <MenuItem x:Name="NewFromJsonBtn" Header="From JSON" FontWeight="Light" ToolTip="Create project from JSON" Click="NewFromJsonBtn_Click" Icon="📄"/>
+                </MenuItem>
+                <MenuItem x:Name="OpenBtn" Header="Open" FontWeight="Light" Command="Open" ToolTip="Open NMD for parsing" Icon="📁"/>
+                <!--MenuItem x:Name="SaveBtn" Header="Save" Icon="💾"/-->
+                <Separator/>
+                <MenuItem Header="Export" FontWeight="Light" Icon="📝">
+                    <MenuItem x:Name="ExportBtn" Header="Export NMD" FontWeight="Light" Command="commands:Commands.Export"  Icon="📝"/>
+                    <MenuItem x:Name="ExportJsonBtn" Header="Export JSON" FontWeight="Light" Click="ExportJsonBtn_Click" Icon="📝"/>
+                </MenuItem>
+            </MenuItem>
+            
+        </Menu>
+
+
+        
+        <!--Search-->
+        <GroupBox Grid.Row="1" Grid.RowSpan="2" FontWeight="Light" Header="Search" Foreground="White" BorderThickness="0.5,0.5,0.5,0.5" Background="Black">
+            <StackPanel Orientation="Vertical"  x:Name="Search" Grid.Column="0"  Grid.Row="1" Margin="0" Background="Black" >
+                <StackPanel Orientation="Horizontal" >
+                    <TextBox x:Name="BoneSearch" VerticalAlignment="Center" Width="310" TextChanged="BoneSearch_TextChanged" Height="39" IsEnabled="False" ToolTip="Search for bones in the tree" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Background="Black" Grid.ColumnSpan="1" >
+                    <TextBlock VerticalAlignment="Top" Height="20" Margin="4,8" FontWeight="light" Foreground="White">Method:</TextBlock>
+                    <ComboBox x:Name="BoneFilter" TextBlock.TextAlignment="Center" Margin="2,6,6,6" VerticalAlignment="Top" Width="258"  SelectionChanged="BoneFilter_SelectionChanged" Height="23" ToolTip="Change search method."/>
+
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+
+
+
+
+
+        <TreeView x:Name="BoneView"  FontWeight="Light" Grid.Column="0" Grid.Row="4" Grid.RowSpan="2" Background="#202020" SelectedItemChanged="BoneView_SelectedItemChanged" DragEnter="BoneView_DragEnter" DragLeave="BoneView_DragLeave" DragDrop.Drop="BoneView_Drop"  Margin="4" AllowDrop="True" ContextMenuClosing="BoneView_ContextMenuClosing">
+            
+        </TreeView>
+        
+        <!--Drag & Drop Prompt-->
+        <Border x:Name="DropIndicator" Opacity="0" Visibility="Hidden" IsVisibleChanged="DropIndicator_IsVisibleChanged"  Panel.ZIndex="3" Grid.Row="3" Grid.RowSpan="2" IsHitTestVisible="False">
+            <Border VerticalAlignment="Center" Height="200" Width="200" CornerRadius="10" Background="#3d3d3d">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="📦" HorizontalAlignment="Center" Foreground="White" FontSize="40" VerticalAlignment="Center" Margin="8"/>
+                    <TextBlock Text="Drop NMD here" HorizontalAlignment="Center" Foreground="White" FontSize="18" VerticalAlignment="Center" Margin="8,8,8,0"/>
+                    <TextBlock Text="to load values" HorizontalAlignment="Center" Foreground="White" FontSize="18" VerticalAlignment="Center" Margin="0"/>
+                    <TextBlock Text="* Hold Shift when dropping" HorizontalAlignment="Center" Foreground="White" FontSize="12" VerticalAlignment="Center" Margin="8,8,8,0"/>
+                    <TextBlock Text="to keep eye bones" HorizontalAlignment="Center" Foreground="White" FontSize="12" VerticalAlignment="Center" Margin="0"/>
+                </StackPanel>
+            </Border>
+        </Border>
+        
+        <!--Property View-->
+        <Frame x:Name="BonePropView" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="4" BorderBrush="Black" NavigationUIVisibility="Hidden" Height="auto" Margin="0,8,0,0"  />
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1" VerticalAlignment="Bottom" >
+            <StackPanel Orientation="Horizontal"  Background="Black" Height="29" >
+                <TextBlock Text="Parameter View:" FontWeight="light" TextAlignment="Center" Foreground="White" Height="20" VerticalAlignment="Bottom" Margin="4"/>
+                <ComboBox x:Name="ViewSelect" FontWeight="Light" TextBlock.TextAlignment="Center"  VerticalAlignment="Bottom" Width="270" Height="23" Margin="4" SelectionChanged="ViewSelect_SelectionChanged"/>
+            </StackPanel >
+            <TextBlock x:Name="BoneInfoLabel" FontWeight="Light" Grid.Column="1" Grid.Row="1"  Foreground="white" Background="Black"/>
+        </StackPanel>
+        
+        
+
+        <Border CornerRadius="20" Grid.ColumnSpan="2" Margin="0,0,301,0">
+        </Border>
+        
+        <!--Bone Controls-->
+        <StackPanel x:Name="BoneTools_Panel" Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Left" Visibility="Collapsed">
+            <Button x:Name="BoneOption_Btn" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="☰ Bone Actions" FontWeight="Light" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="30" Margin="2" Click="BoneOption_Btn_Click" ToolTip="Bone Actions">
+                
+                <Button.Resources>
+                    <ContextMenu x:Key="StandardMenu">
+                        <MenuItem x:Name="Standard_Rename_Menu" FontWeight="Light" Header="Rename Bone" Icon="🗚" FontSize="12">
+                            <StackPanel x:Name="RenameContentMenu" Width="200">
+                                <Label Content="Rename Bone"/>
+                                <TextBox x:Name="text_rename_menu"/>
+                                <Button Style="{StaticResource ModernButton}" Content="Rename" Click="RenameStandard_Click"/>
+                            </StackPanel>
+                        </MenuItem>
+                        <MenuItem x:Name="Standard_Mirror_Menu" Visibility="Collapsed" Header="Mirror Bone" FontWeight="Light" Icon="◧" IsEnabled="False" FontSize="12">
+                            <MenuItem x:Name="Standard_Mirror_Bone" Header="Mirror Single Bone" Icon="🦴">
+                                
+                            </MenuItem>
+                            <MenuItem x:Name="Standard_Mirror_Linked" Header="Mirror Bone Hierarchy" Icon="🔗">
+
+                            </MenuItem>
+                        </MenuItem>
+                    </ContextMenu>
+                    
+                    <ContextMenu x:Key="SwingMenu">
+                        <MenuItem x:Name="Swing_Rename_Menu" FontWeight="Light" Header="Rename Bone" Icon="🗚" FontSize="12">
+                            <StackPanel  Width="200">
+                                <Label Content="Rename Bone (Swing)"/>
+                                <TextBox />
+                                <Button Style="{StaticResource ModernButton}" Content="Rename" Click="RenameStandard_Click"/>
+                            </StackPanel>
+                        </MenuItem>
+                        <MenuItem x:Name="Swing_Mirror_Menu" Visibility="Collapsed" Header="Mirror Bone" FontWeight="Light" Icon="◧" IsEnabled="False" FontSize="12">
+                           <MenuItem x:Name="Swing_Mirror_Bone" Header="Mirror Single Bone" Icon="🦴">
+
+                            </MenuItem>
+                            <MenuItem x:Name="Swing_Mirror_Linked" Header="Mirror Bone Hierarchy" Icon="🔗">
+
+                            </MenuItem>
+                        </MenuItem>
+                    </ContextMenu>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="BoneRemove" Visibility="Hidden" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="Remove" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="30" Margin="2" Click="NMDBtn_Click" ToolTip="Add Bone" />
+            <Button x:Name="Bone1" Visibility="Hidden" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="+" VerticalAlignment="Center" HorizontalAlignment="Center" Width="40" Height="30" Margin="2" Click="NMDBtn_Click" ToolTip="Add Bone" />
+            <Button x:Name="Bone2" Visibility="Hidden" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="+" VerticalAlignment="Center" HorizontalAlignment="Center" Width="40" Height="30" Margin="2" Click="NMDBtn_Click" ToolTip="Add Bone" />
+        </StackPanel>
+        
+       
+        
+        
+        
+        <!--Dialogs-->
+        <Border x:Name="NewDialog" Opacity="0" Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="4" Panel.ZIndex="4" Background="#7F000000" Visibility="Hidden" IsVisibleChanged="NewDialog_IsVisibleChanged">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="20"  Opacity="0.2"/>
+            </Border.Effect>
+            <Border  Width="auto" MinWidth="400" Height="auto" MinHeight="200" CornerRadius="9"  Background="#202020" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <StackPanel Orientation="Vertical" Margin="8">
+                    <TextBlock Text="New Project from NMD" FontSize="20" FontWeight="Light" Foreground="White" Padding="0" Margin="4"/>
+                    <Separator/>
+
+                    <TextBlock Text="NMD Path:" FontWeight="Light" Foreground="White" Margin="4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="NMDBox" Width="500" FontWeight="Light" FontSize="14" TextChanged="NMDBox_TextChanged"/>
+                        <Button x:Name="NMDBtn" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="Browse" VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="30" FontWeight="Light" Click="NMDBtn_Click" />
+                    </StackPanel>
+                    <CheckBox x:Name="KeepEyeBox" Margin="8" Foreground="White" FontWeight="Light" Content="Keep Eye Bones"/>
+                    
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="NMDCancelBtn" Content="Cancel" Width="100" Style="{StaticResource ModernButton}" FontWeight="Light" HorizontalAlignment="Right" Margin="8,0,8,0" Click="NMDCancelBtn_Click" Background="#FF616161"/>
+                        <Button x:Name="ProcessBtn" IsEnabled="False" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d" Margin="2,0,2,0" VerticalAlignment="Bottom" Height="40" Width="100" Content="Create Project" Click="ProcessBtn_Click"/>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Border>
+        </Border>
+
+        <Border x:Name="ExportDialog" Opacity="0" Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="4" Panel.ZIndex="4" Background="#7F000000" Visibility="Hidden"  IsVisibleChanged="ExportDialog_IsVisibleChanged">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="20"  Opacity="0.2"/>
+            </Border.Effect>
+            <Border  Width="auto" MinWidth="400" Height="auto" MinHeight="100" CornerRadius="9"  Background="#202020" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <StackPanel Orientation="Vertical" Margin="8">
+                    <TextBlock Text="Export NMD" FontSize="20" FontWeight="Light" Foreground="White" Padding="0" Margin="4"/>
+                    <Separator/>
+
+                    <TextBlock Text="Export Path:" FontWeight="Light" Foreground="White" Margin="4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="ExportBox" Width="500" FontWeight="Light" FontSize="14" TextChanged="ExportBox_TextChanged"/>
+                        <Button x:Name="ExportNMDBtn" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d"  Content="Browse" VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="30" Click="ExportNMDBtn_Click"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock x:Name="ErrorBox"  MinWidth="370" Foreground="White" VerticalAlignment="Bottom"/>
+                        <Button x:Name="ExportCancelBtn" Content="Cancel" Width="100" Style="{StaticResource ModernButton}" FontWeight="Light" HorizontalAlignment="Right" Margin="8,0,8,0" Click="ExportCancelBtn_Click"  Background="#FF616161"/>
+                        <Button x:Name="ExportProcessBtn" IsEnabled="False" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d" Margin="2,0,2,0" VerticalAlignment="Bottom" Height="40" Width="100" Content="Export NMD" Click="ExportProcessBtn_Click"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Border>
+
+        <Border x:Name="NewJsonDialog" Opacity="0" Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="4" Panel.ZIndex="4" Background="#7F000000" Visibility="Hidden" IsVisibleChanged="NewJsonDialog_IsVisibleChanged">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="20"  Opacity="0.2"/>
+            </Border.Effect>
+            <Border  Width="auto" MinWidth="400" Height="auto" MinHeight="200" CornerRadius="9"  Background="#202020" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <StackPanel Orientation="Vertical" Margin="8">
+                    <TextBlock Text="New Project from JSON" FontSize="20" FontWeight="Light" Foreground="White" Padding="0" Margin="4"/>
+                    <Separator/>
+
+                    <TextBlock Text="JSON Path:" FontWeight="Light" Foreground="White" Margin="4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="JsonImportBox" Width="500" FontWeight="Light" FontSize="14" TextChanged="JsonImportBox_TextChanged"/>
+                        <Button x:Name="JsonImportBrowseBtn" Style="{StaticResource ModernButton}" Background="#3d3d3d"  Content="Browse" VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="30" FontWeight="Light" Click="JsonImportBrowseBtn_Click" />
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="JsonImportCancelBtn" Content="Cancel" Width="100" Style="{StaticResource ModernButton}" FontWeight="Light" HorizontalAlignment="Right" Margin="8,0,8,0" Click="JsonImportCancelBtn_Click" Background="#FF616161"/>
+                        <Button x:Name="JsonImportProcessBtn" IsEnabled="False" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d" Margin="2,0,2,0" VerticalAlignment="Bottom" Height="40" Width="100" Content="Import JSON" Click="JsonImportProcessBtn_Click"/>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Border>
+        </Border>
+
+        <Border x:Name="ExportJsonDialog" Opacity="0" Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="4" Panel.ZIndex="4" Background="#7F000000" Visibility="Hidden"  IsVisibleChanged="ExportJsonDialog_IsVisibleChanged">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="20"  Opacity="0.2"/>
+            </Border.Effect>
+            <Border  Width="auto" MinWidth="400" Height="auto" MinHeight="100" CornerRadius="9"  Background="#202020" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <StackPanel Orientation="Vertical" Margin="8">
+                    <TextBlock Text="Export JSON" FontSize="20" FontWeight="Light" Foreground="White" Padding="0" Margin="4"/>
+                    <Separator/>
+
+                    <TextBlock Text="Export Path:" FontWeight="Light" Foreground="White" Margin="4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="ExportJsonBox" Width="500" FontWeight="Light" FontSize="14" TextChanged="ExportJsonBox_TextChanged"/>
+                        <Button x:Name="ExportJsonBrowseBtn" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d"  Content="Browse" VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="30" Click="ExportJsonBrowseBtn_Click"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock x:Name="ExportJsonErrorBox"  MinWidth="370" Foreground="White" VerticalAlignment="Bottom"/>
+                        <Button x:Name="ExportJsonCancelBtn" Content="Cancel" Width="100" Style="{StaticResource ModernButton}" FontWeight="Light" HorizontalAlignment="Right" Margin="8,0,8,0" Click="ExportJsonCancelBtn_Click"  Background="#FF616161"/>
+                        <Button x:Name="ExportJsonProcessBtn" IsEnabled="False" Style="{StaticResource ModernButton}" FontWeight="Light" Background="#3d3d3d" Margin="2,0,2,0" VerticalAlignment="Bottom" Height="40" Width="100" Content="Export JSON" Click="ExportJsonProcessBtn_Click"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Border>
+
+        <StatusBar Grid.Row="7" Grid.Column="0" Height="25" Grid.ColumnSpan="4">
+
+            <StatusBarItem x:Name="StatusMessage" FontStyle="Italic" Content="Hello There"/>
+
+        </StatusBar>
+        
+    </Grid>
+
+    
+
+</Window>

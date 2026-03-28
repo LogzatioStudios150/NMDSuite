@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="NMDSuite.BoneViews.RandEyeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NMDSuite.BoneViews"
+             mc:Ignorable="d" 
+             d:DesignWidth="800" Height="auto">
+    <Grid>
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Grid.Column="0" VerticalAlignment="Top" Margin="4,4,4,0">
+            <StackPanel >
+                <TextBlock FontWeight="Light" Text="Value 1:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Rotation_Box" Padding="8 2 8 12" Height="40" TabIndex="0" Width="200" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Light" Text="Value 2:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="slerp2_Box" Padding="8 2 8 12" HorizontalAlignment="Left" Width="200" Height="40" TabIndex="1"/>
+
+
+
+
+
+            </StackPanel>
+
+        </Border>
+    </Grid>
+</UserControl>

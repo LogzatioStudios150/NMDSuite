@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NMDSuite": {
+      "commandName": "Project"
+    },
+    "NMDSuite - CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "/parsefiles .\\input\\00012.nmd,.\\input\\00028.nmd /exportdir .\\output /keepeye /log /openexportdir"
+    }
+  }
+}

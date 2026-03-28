@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EnUkMxOqdKkBQ/zICnIVLIGwhdiO7HK9TthL6zaKKkij1f24YMCP4xr4ZB2bxzUcNKuGr2HclmrvIquRwY9zrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUpdater\\NMDSuiteUpdater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LogzatioStudios\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

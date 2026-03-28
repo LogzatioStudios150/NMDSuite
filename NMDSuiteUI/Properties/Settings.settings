@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NMDSuite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MainColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">40, 40, 40</Value>
+    </Setting>
+    <Setting Name="AccentColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">18, 18, 255</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

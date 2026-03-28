@@ -1,0 +1,3094 @@
+lower_r137_f_H_Hip.nmd:
+Name:MUNE1
+Index: 0
+Parent Index: 65535
+Position > X: 0, Y: 0, Z: -1.9721523E-32
+Rotation > X: 0, Y: -0, Z: 90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE2
+Index: 1
+Parent Index: 0
+Position > X: 0.13, Y: 1.010303E-16, Z: -2.0411203E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUBI
+Index: 2
+Parent Index: 1
+Position > X: 0.24000001, Y: -1.010303E-16, Z: -3.768222E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ATAMA
+Index: 3
+Parent Index: 2
+Position > X: 0.07, Y: -9.947598E-16, Z: -1.5543122E-17
+Rotation > X: 90, Y: -0, Z: 90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_R
+Index: 4
+Parent Index: 1
+Position > X: 0.22000001, Y: -7.882583E-17, Z: -0.1
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_R
+Index: 5
+Parent Index: 4
+Position > X: 0.13, Y: 8.881784E-17, Z: 3.4354298E-18
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_R
+Index: 6
+Parent Index: 5
+Position > X: 0.3, Y: 1.0686398E-12, Z: 1.6337548E-09
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TE_R
+Index: 7
+Parent Index: 6
+Position > X: 0.23, Y: 3.9810884E-06, Z: 3.98302E-06
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_L
+Index: 8
+Parent Index: 1
+Position > X: 0.22000001, Y: -1.2323476E-16, Z: 0.1
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_L
+Index: 9
+Parent Index: 8
+Position > X: 0.13, Y: -7.327472E-16, Z: 2.442281E-17
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_L
+Index: 10
+Parent Index: 9
+Position > X: 0.3, Y: -1.607011E-08, Z: -3.491291E-10
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TE_L
+Index: 11
+Parent Index: 10
+Position > X: 0.23, Y: 3.9810875E-06, Z: 3.983515E-06
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHI
+Index: 12
+Parent Index: 65535
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_R
+Index: 13
+Parent Index: 12
+Position > X: 0.16000001, Y: -4.440892E-17, Z: -0.1
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_R
+Index: 14
+Parent Index: 13
+Position > X: 0.44000003, Y: 3.9443046E-32, Z: 8.881784E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHI_R
+Index: 15
+Parent Index: 14
+Position > X: 0.42, Y: 4.9303807E-33, Z: 1.5543122E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TSUMASAKI_R
+Index: 16
+Parent Index: 15
+Position > X: 0.1, Y: -0.1, Z: -2.3617746E-07
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_L
+Index: 17
+Parent Index: 12
+Position > X: 0.16000001, Y: 0, Z: 0.1
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_L
+Index: 18
+Parent Index: 17
+Position > X: 0.44000003, Y: 2.9582285E-32, Z: 1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHI_L
+Index: 19
+Parent Index: 18
+Position > X: 0.42, Y: 2.4651903E-32, Z: 1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TSUMASAKI_L
+Index: 20
+Parent Index: 19
+Position > X: 0.1, Y: -0.1, Z: -2.3617754E-07
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_R
+Index: 21
+Parent Index: 7
+Position > X: 0.031999998, Y: 0.040000003, Z: 0.033000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA2_R
+Index: 22
+Parent Index: 21
+Position > X: 0.053002756, Y: -8.881784E-17, Z: -8.8817837E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA1_R
+Index: 23
+Parent Index: 22
+Position > X: 0.03400027, Y: 0, Z: 1.3322676E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO3_R
+Index: 24
+Parent Index: 7
+Position > X: 0.109000005, Y: 0.004, Z: 0.034
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO2_R
+Index: 25
+Parent Index: 24
+Position > X: 0.060000002, Y: -3.1086244E-16, Z: 8.326673E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO1_R
+Index: 26
+Parent Index: 25
+Position > X: 0.035996705, Y: -1.7763569E-16, Z: -1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA3_R
+Index: 27
+Parent Index: 7
+Position > X: 0.11004978, Y: 0, Z: 0.006
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA2_R
+Index: 28
+Parent Index: 27
+Position > X: 0.06900014, Y: 3.3306692E-17, Z: 9.714451E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA1_R
+Index: 29
+Parent Index: 28
+Position > X: 0.041002184, Y: -4.440892E-16, Z: 5.551115E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU3_R
+Index: 30
+Parent Index: 7
+Position > X: 0.106, Y: 0.001, Z: -0.022
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU2_R
+Index: 31
+Parent Index: 30
+Position > X: 0.06300193, Y: -1.7763569E-16, Z: -5.2735593E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU1_R
+Index: 32
+Parent Index: 31
+Position > X: 0.03600053, Y: 6.217249E-16, Z: 6.106227E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO3_R
+Index: 33
+Parent Index: 7
+Position > X: 0.1, Y: 0.004, Z: -0.05
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO2_R
+Index: 34
+Parent Index: 33
+Position > X: 0.050002396, Y: 4.440892E-17, Z: -5.551115E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO1_R
+Index: 35
+Parent Index: 34
+Position > X: 0.028994907, Y: 8.881784E-17, Z: -7.21645E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_L
+Index: 36
+Parent Index: 11
+Position > X: 0.032, Y: -0.040000003, Z: 0.033000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA2_L
+Index: 37
+Parent Index: 36
+Position > X: 0.053, Y: -2.588587E-06, Z: -6.3247904E-07
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA1_L
+Index: 38
+Parent Index: 37
+Position > X: 0.034, Y: -2.039478E-06, Z: -2.5045233E-07
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO3_L
+Index: 39
+Parent Index: 11
+Position > X: 0.109000005, Y: -0.004, Z: 0.034
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO2_L
+Index: 40
+Parent Index: 39
+Position > X: 0.060000002, Y: -2.4424907E-16, Z: 4.440892E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO1_L
+Index: 41
+Parent Index: 40
+Position > X: 0.036000002, Y: -4.440892E-16, Z: -1.3322677E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA3_L
+Index: 42
+Parent Index: 11
+Position > X: 0.11000001, Y: 0, Z: 0.006
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA2_L
+Index: 43
+Parent Index: 42
+Position > X: 0.069, Y: 1.7763569E-16, Z: -4.1633365E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA1_L
+Index: 44
+Parent Index: 43
+Position > X: 0.041, Y: -3.1086244E-16, Z: 2.7755576E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU3_L
+Index: 45
+Parent Index: 11
+Position > X: 0.106, Y: -0.001, Z: -0.022
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU2_L
+Index: 46
+Parent Index: 45
+Position > X: 0.063, Y: 1.5543122E-16, Z: -1.9428903E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU1_L
+Index: 47
+Parent Index: 46
+Position > X: 0.036000002, Y: 1.7763569E-16, Z: 1.8735014E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO3_L
+Index: 48
+Parent Index: 11
+Position > X: 0.1, Y: -0.004000019, Z: -0.05
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO2_L
+Index: 49
+Parent Index: 48
+Position > X: 0.05, Y: 1.3322677E-16, Z: 3.3306692E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO1_L
+Index: 50
+Parent Index: 49
+Position > X: 0.029, Y: 1.7763569E-16, Z: 1.3877788E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIKEN_R
+Index: 51
+Parent Index: 3
+Position > X: 0.120000005, Y: -0.011000001, Z: 0.115
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYU_R
+Index: 52
+Parent Index: 3
+Position > X: 0.112, Y: -0.041, Z: 0.128
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYUJIRI_R
+Index: 53
+Parent Index: 3
+Position > X: 0.08696931, Y: -0.065, Z: 0.120000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIWA_R
+Index: 54
+Parent Index: 3
+Position > X: 0.11000001, Y: -0.018000003, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIMI_R
+Index: 55
+Parent Index: 3
+Position > X: 0.015000001, Y: -0.072000004, Z: 0.088
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UP_R
+Index: 56
+Parent Index: 3
+Position > X: 0.0841, Y: -0.0337, Z: 0.112
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UN_R
+Index: 57
+Parent Index: 3
+Position > X: 0.102, Y: -0.039, Z: 0.098000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HOHO_R
+Index: 58
+Parent Index: 3
+Position > X: 0.10077091, Y: -0.044, Z: 0.078
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BIKON_R
+Index: 59
+Parent Index: 3
+Position > X: 0.11000001, Y: -0.015000001, Z: 0.071
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:CHOBO_R
+Index: 60
+Parent Index: 3
+Position > X: 0.084, Y: -0.040000003, Z: 0.044999998
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIKEN_L
+Index: 61
+Parent Index: 3
+Position > X: 0.120000005, Y: 0.010999999, Z: 0.115
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYU_L
+Index: 62
+Parent Index: 3
+Position > X: 0.112, Y: 0.041, Z: 0.128
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYUJIRI_L
+Index: 63
+Parent Index: 3
+Position > X: 0.08696895, Y: 0.065, Z: 0.120000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIWA_L
+Index: 64
+Parent Index: 3
+Position > X: 0.11000001, Y: 0.017999997, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIMI_L
+Index: 65
+Parent Index: 3
+Position > X: 0.015000001, Y: 0.072, Z: 0.08799999
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UP_L
+Index: 66
+Parent Index: 3
+Position > X: 0.0841, Y: 0.0337, Z: 0.112
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UN_L
+Index: 67
+Parent Index: 3
+Position > X: 0.102, Y: 0.039, Z: 0.098000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HOHO_L
+Index: 68
+Parent Index: 3
+Position > X: 0.10077115, Y: 0.044, Z: 0.078
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BIKON_L
+Index: 69
+Parent Index: 3
+Position > X: 0.11000001, Y: 0.015, Z: 0.071
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:CHOBO_L
+Index: 70
+Parent Index: 3
+Position > X: 0.084, Y: 0.040000003, Z: 0.044999998
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_M
+Index: 71
+Parent Index: 3
+Position > X: 0.117, Y: -3.130058E-10, Z: 0.048
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_R
+Index: 72
+Parent Index: 3
+Position > X: 0.111, Y: -0.016, Z: 0.046
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_L
+Index: 73
+Parent Index: 3
+Position > X: 0.111, Y: 0.016, Z: 0.046
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:AGO
+Index: 74
+Parent Index: 3
+Position > X: 0.025999999, Y: 3.3044824E-08, Z: 0.07300001
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_M
+Index: 75
+Parent Index: 74
+Position > X: -9.158755E-09, Y: -0.049000002, Z: 0.087000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_R
+Index: 76
+Parent Index: 74
+Position > X: -0.016, Y: -0.047000002, Z: 0.081
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_R
+Index: 77
+Parent Index: 74
+Position > X: -0.025999999, Y: -0.036000002, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_L
+Index: 78
+Parent Index: 74
+Position > X: 0.016, Y: -0.047000002, Z: 0.081
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_L
+Index: 79
+Parent Index: 74
+Position > X: 0.025999999, Y: -0.036, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BERO1
+Index: 80
+Parent Index: 74
+Position > X: 3.0483704E-09, Y: -0.037, Z: 0.034
+Rotation > X: 180, Y: -90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BERO2
+Index: 81
+Parent Index: 80
+Position > X: 0.020000001, Y: -0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_L_d__offset
+Index: 82
+Parent Index: 18
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_R_d__offset
+Index: 83
+Parent Index: 13
+Position > X: 0, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_L_d__offset
+Index: 84
+Parent Index: 17
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_R_d__offset
+Index: 85
+Parent Index: 14
+Position > X: 0, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHIplus_d__offset
+Index: 86
+Parent Index: 12
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: -2.8082964E-05, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHI_d__offset
+Index: 87
+Parent Index: 12
+Position > X: 8.021786E-08, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE1_d__offset
+Index: 88
+Parent Index: 0
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHIRIBON_r1_01__swing
+Index: 89
+Parent Index: 87
+Position > X: 0.008601113, Y: -0.13987803, Z: 0.004900081
+Rotation > X: -128.37845, Y: 70.61306, Z: -36.762337
+Scale > X:1.556E-41, Y:0.07752941, Z:4.0689893E-20
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 3
+Val2: 0
+Dampening: 3500
+Val3: 0
+Val4: 1638
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.07752941
+Gravity > X: 8000, Y: 10000
+Constraints > +X: 35, -X: -7, +Y: 14, -Y: -14
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:KOSHIRIBON_b1_01__swing
+Index: 90
+Parent Index: 87
+Position > X: 0.037334096, Y: 0.112299666, Z: -0.06297007
+Rotation > X: -10.261512, Y: 10.222305, Z: 43.283813
+Scale > X:1.5605E-41, Y:0.08386689, Z:4.0681815E-20
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 4000
+Val3: 2500
+Val4: 3276
+Val5: 0
+Val6: 0
+Val7: 25
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.08386689
+Gravity > X: 8000, Y: 7500
+Constraints > +X: 42, -X: -42, +Y: 21, -Y: -7
+Rigidity: 0
+Collision Count: 2
+Swing Collision Count: 0
+Collision Bones (Index):
+97
+98
+0
+0
+Flag: 0
+______________________________
+
+Name:KOSHIRIBON_b1_02__swing
+Index: 91
+Parent Index: 90
+Position > X: 0.08386689, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1.565E-41, Y:0.13559695, Z:7.7592556E-25
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 6000
+Val3: 1000
+Val4: 3686
+Val5: 0
+Val6: 0
+Val7: 35
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.13559695
+Gravity > X: 6000, Y: 9000
+Constraints > +X: 56, -X: -56, +Y: 28, -Y: -10
+Rigidity: 0
+Collision Count: 2
+Swing Collision Count: 0
+Collision Bones (Index):
+97
+98
+0
+0
+Flag: 0
+______________________________
+
+Name:KOSHIRIBON_l1_01__swing
+Index: 92
+Parent Index: 87
+Position > X: 0.00898122, Y: -0.13982917, Z: 0.044812705
+Rotation > X: 54.362072, Y: -74.51891, Z: 36.64641
+Scale > X:1.5695E-41, Y:0.070204034, Z:4.0689893E-20
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 3
+Val2: 0
+Dampening: 3500
+Val3: 0
+Val4: 1638
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.070204034
+Gravity > X: 8000, Y: 10000
+Constraints > +X: 7, -X: -35, +Y: 14, -Y: -14
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:koshimaeR01__swing
+Index: 93
+Parent Index: 87
+Position > X: -0.017795725, Y: -0.116300665, Z: -0.062997095
+Rotation > X: 179.99998, Y: 2.4859257E-05, Z: -155.52402
+Scale > X:1.574E-41, Y:0.03208979, Z:7.7597486E-25
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 3
+Val2: 0
+Dampening: 4000
+Val3: 0
+Val4: 1638
+Val5: 0
+Val6: 0
+Val7: 50
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.03208979
+Gravity > X: 6000, Y: 10000
+Constraints > +X: 28, -X: -28, +Y: 0, -Y: -42
+Rigidity: 4
+Collision Count: 1
+Swing Collision Count: 0
+Collision Bones (Index):
+96
+0
+0
+0
+Flag: 0
+______________________________
+
+Name:koshimaeL01__swing
+Index: 94
+Parent Index: 87
+Position > X: -0.017795766, Y: -0.1163007, Z: 0.06299707
+Rotation > X: 179.99998, Y: 2.4859257E-05, Z: -155.52402
+Scale > X:1.5784E-41, Y:0.03208979, Z:7.7597486E-25
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 3
+Val2: 0
+Dampening: 4000
+Val3: 0
+Val4: 1638
+Val5: 0
+Val6: 0
+Val7: 50
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.03208979
+Gravity > X: 6000, Y: 10000
+Constraints > +X: 28, -X: -28, +Y: 0, -Y: -42
+Rigidity: 4
+Collision Count: 1
+Swing Collision Count: 0
+Collision Bones (Index):
+96
+0
+0
+0
+Flag: 0
+______________________________
+
+Name:KOSHIRIBON_b1_03__swing
+Index: 95
+Parent Index: 91
+Position > X: 0.13559695, Y: -5.3290707E-16, Z: -4.440892E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1.5829E-41, Y:0.17021288, Z:1.5792264E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 3
+Val2: 0
+Dampening: 8000
+Val3: 0
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 40
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.17021288
+Gravity > X: 4000, Y: 10000
+Constraints > +X: 56, -X: -56, +Y: 28, -Y: -14
+Rigidity: 0
+Collision Count: 2
+Swing Collision Count: 0
+Collision Bones (Index):
+97
+98
+0
+0
+Flag: 0
+______________________________
+
+Name:haramae__shit
+Index: 96
+Parent Index: 88
+Position > X: 0.1438445, Y: 0.0014505209, Z: -8.682151E-09
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:0.17928907, Y:0.27237114, Z:0.14275269
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:momo_R1__chit
+Index: 97
+Parent Index: 83
+Position > X: 0.15255383, Y: 0.01785228, Z: 0.010162937
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:0.38463327, Y:0.13747132, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:momo_L1__chit
+Index: 98
+Parent Index: 84
+Position > X: 0.1525538, Y: 0.017850744, Z: -0.010032784
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:0.38463327, Y:0.1374713, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_L__const_KATA_L__rot_SAKOTSU_L__x0
+Index: 99
+Parent Index: 1
+Position > X: 0.22000001, Y: -4.3232314E-32, Z: 0.000100000005
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:0, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_R__const_KATA_R__rot_SAKOTSU_R__x0
+Index: 100
+Parent Index: 1
+Position > X: 0.22000001, Y: 5.1608023E-17, Z: -0.000100000005
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:0, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE_L__const_KATA_L__rot_SAKOTSU_L__x0__offset
+Index: 101
+Parent Index: 1
+Position > X: 0.07, Y: 0.06999999, Z: 0.0001
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:0, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE_R__const_KATA_R__rot_SAKOTSU_R__x0__offset
+Index: 102
+Parent Index: 1
+Position > X: 0.07000001, Y: 0.07000001, Z: -0.00010000002
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:0, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_RT_L__prot_x0__offset
+Index: 103
+Parent Index: 9
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_RT_R__prot_x0__offset
+Index: 104
+Parent Index: 5
+Position > X: 0.000100000005, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_MD_L__prot_x50__offset
+Index: 105
+Parent Index: 9
+Position > X: 0.2, Y: 2.5896461E-05, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_MD_R__prot_x50__offset
+Index: 106
+Parent Index: 5
+Position > X: 0.2, Y: 2.5896461E-05, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:WAKI_L__slerp_KATA_L__i40_x0__offset
+Index: 107
+Parent Index: 8
+Position > X: 0.000100000005, Y: 0, Z: 1.5777218E-31
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:0.4, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:WAKI_R__slerp_KATA_R__i40_x0__offset
+Index: 108
+Parent Index: 4
+Position > X: 0.000100000005, Y: -0, Z: 1.5777218E-31
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:0.4, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIJI_L__rot_UDE_L__z50__offset
+Index: 109
+Parent Index: 9
+Position > X: 0.3, Y: 0.000100000005, Z: -8.881784E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:9.19072E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIJI_R__rot_UDE_R__z50__offset
+Index: 110
+Parent Index: 5
+Position > X: 0.3, Y: 0.000100000005, Z: 8.881784E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:5.5173E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_MD_L__rot_TE_L__x50__offset
+Index: 111
+Parent Index: 10
+Position > X: 0.1, Y: 1.7201408E-09, Z: 3.4665604E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:0.5, Y:1.01019E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_MD_R__rot_TE_R__x50__offset
+Index: 112
+Parent Index: 6
+Position > X: 0.1, Y: 1.7201408E-09, Z: -3.4665604E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:0.5, Y:6.42848E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIRI_L__slerp_MOMO_L__i50_x0__offset
+Index: 113
+Parent Index: 12
+Position > X: 0.13, Y: 0.000100000005, Z: 0.072000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.10205E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIRI_R__slerp_MOMO_R__i50_x0__offset
+Index: 114
+Parent Index: 12
+Position > X: 0.13, Y: 0.000100000005, Z: -0.072000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.102044E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:COMANECI_L__slerp_MOMO_L__i70_x0__offset
+Index: 115
+Parent Index: 12
+Position > X: 0.099999994, Y: -5.493836E-09, Z: 0.102
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.7, Y:1.10205E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:COMANECI_R__slerp_MOMO_R__i70_x0__offset
+Index: 116
+Parent Index: 12
+Position > X: 0.1, Y: -5.493836E-09, Z: -0.102
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.7, Y:1.102044E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_RT_L__prot_x0__offset
+Index: 117
+Parent Index: 17
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_RT_R__prot_x0__offset
+Index: 118
+Parent Index: 13
+Position > X: 0.000100000005, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_MD_L__prot_x50__offset
+Index: 119
+Parent Index: 17
+Position > X: 0.20000103, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_MD_R__prot_x50__offset
+Index: 120
+Parent Index: 13
+Position > X: 0.2, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUBI_RT__prot_x0__offset
+Index: 121
+Parent Index: 2
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TEKUBI_L__rot_TE_L__x100__offset
+Index: 122
+Parent Index: 10
+Position > X: 0.2, Y: 3.456405E-09, Z: 3.4665656E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1.01019E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TEKUBI_R__rot_TE_R__x100__offset
+Index: 123
+Parent Index: 6
+Position > X: 0.2, Y: 3.456405E-09, Z: -3.4665656E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:6.42848E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_L__prot_x50
+Index: 124
+Parent Index: 36
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_R__prot_x50
+Index: 125
+Parent Index: 21
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZAKOZO_L__rot_HIZA_L__z50__offset
+Index: 126
+Parent Index: 17
+Position > X: 0.44000003, Y: 0, Z: 0
+Rotation > X: 1.573485E-05, Y: -0, Z: 0
+Scale > X:0.5, Y:1.653756E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHIKUBI_L__rot_ASHI_L__x100__offset
+Index: 127
+Parent Index: 18
+Position > X: 0.4, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1.744874E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZAKOZO_R__rot_HIZA_R__z50__offset
+Index: 128
+Parent Index: 13
+Position > X: 0.44000003, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.286414E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHIKUBI_R__rot_ASHI_R__x100__offset
+Index: 129
+Parent Index: 14
+Position > X: 0.4, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1.377532E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHISUSORIBON_r1_01__swing
+Index: 130
+Parent Index: 85
+Position > X: 0.14101294, Y: 0.026564388, Z: -0.07405131
+Rotation > X: -89.99999, Y: 12.175338, Z: -0.004199101
+Scale > X:1.5874E-41, Y:0.12922977, Z:1.5788503E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 6000
+Val3: 2500
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.12922977
+Gravity > X: 4000, Y: 7500
+Constraints > +X: 42, -X: -42, +Y: 21, -Y: -7
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:ASHIYURE_r1_01__swing
+Index: 131
+Parent Index: 83
+Position > X: 0.19858003, Y: 1.4121045E-05, Z: -2.704869E-05
+Rotation > X: -179.99998, Y: 3.874835E-05, Z: 1.8079359E-28
+Scale > X:1.5919E-41, Y:0.374899, Z:1.5781732E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 8000
+Val3: 7000
+Val4: 3276
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 100, Z: 100
+Length: 0.374899
+Gravity > X: 4000, Y: 3000
+Constraints > +X: 28, -X: -28, +Y: 10, -Y: -14
+Rigidity: 0
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:ASHISUSORIBON_l1_01__swing
+Index: 132
+Parent Index: 82
+Position > X: 0.14101279, Y: 0.026561504, Z: 0.074050955
+Rotation > X: 89.99997, Y: -12.175116, Z: -0.0036077313
+Scale > X:1.5964E-41, Y:0.12923005, Z:1.5788503E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 6000
+Val3: 2500
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.12923005
+Gravity > X: 4000, Y: 7500
+Constraints > +X: 42, -X: -42, +Y: 21, -Y: -7
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:ASHIYURE_l1_01__swing
+Index: 133
+Parent Index: 84
+Position > X: 0.19858025, Y: 1.2137461E-05, Z: 2.6826301E-05
+Rotation > X: 179.99995, Y: 1.9027944E-05, Z: 0
+Scale > X:1.6008E-41, Y:0.37489858, Z:1.5781732E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 8000
+Val3: 7000
+Val4: 3276
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 100, Z: 100
+Length: 0.37489858
+Gravity > X: 4000, Y: 3000
+Constraints > +X: 28, -X: -28, +Y: 10, -Y: -14
+Rigidity: 0
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Number of bones: 134
+
+Successfully saved lower_r137_f_H_Hip.nmd.
+
+upper_r137_f_I_ChestPlate.nmd:
+Name:MUNE1
+Index: 0
+Parent Index: 65535
+Position > X: 0, Y: 0, Z: -1.9721523E-32
+Rotation > X: 0, Y: -0, Z: 90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE2
+Index: 1
+Parent Index: 0
+Position > X: 0.13, Y: 1.010303E-16, Z: -2.0411203E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUBI
+Index: 2
+Parent Index: 1
+Position > X: 0.24000001, Y: -1.010303E-16, Z: -3.768222E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ATAMA
+Index: 3
+Parent Index: 2
+Position > X: 0.07, Y: -9.947598E-16, Z: -1.5543122E-17
+Rotation > X: 90, Y: -0, Z: 90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_R
+Index: 4
+Parent Index: 1
+Position > X: 0.22000001, Y: -7.882583E-17, Z: -0.1
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_R
+Index: 5
+Parent Index: 4
+Position > X: 0.13, Y: 8.881784E-17, Z: 3.4354298E-18
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_R
+Index: 6
+Parent Index: 5
+Position > X: 0.3, Y: 1.0686398E-12, Z: 1.6337548E-09
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TE_R
+Index: 7
+Parent Index: 6
+Position > X: 0.23, Y: 3.9810884E-06, Z: 3.98302E-06
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_L
+Index: 8
+Parent Index: 1
+Position > X: 0.22000001, Y: -1.2323476E-16, Z: 0.1
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_L
+Index: 9
+Parent Index: 8
+Position > X: 0.13, Y: -7.327472E-16, Z: 2.442281E-17
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_L
+Index: 10
+Parent Index: 9
+Position > X: 0.3, Y: -1.607011E-08, Z: -3.491291E-10
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TE_L
+Index: 11
+Parent Index: 10
+Position > X: 0.23, Y: 3.9810875E-06, Z: 3.983515E-06
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHI
+Index: 12
+Parent Index: 65535
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_R
+Index: 13
+Parent Index: 12
+Position > X: 0.16000001, Y: -4.440892E-17, Z: -0.1
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_R
+Index: 14
+Parent Index: 13
+Position > X: 0.44000003, Y: 3.9443046E-32, Z: 8.881784E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHI_R
+Index: 15
+Parent Index: 14
+Position > X: 0.42, Y: 4.9303807E-33, Z: 1.5543122E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TSUMASAKI_R
+Index: 16
+Parent Index: 15
+Position > X: 0.1, Y: -0.1, Z: -2.3617746E-07
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_L
+Index: 17
+Parent Index: 12
+Position > X: 0.16000001, Y: 0, Z: 0.1
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZA_L
+Index: 18
+Parent Index: 17
+Position > X: 0.44000003, Y: 2.9582285E-32, Z: 1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHI_L
+Index: 19
+Parent Index: 18
+Position > X: 0.42, Y: 2.4651903E-32, Z: 1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TSUMASAKI_L
+Index: 20
+Parent Index: 19
+Position > X: 0.1, Y: -0.1, Z: -2.3617754E-07
+Rotation > X: 0, Y: 0, Z: -90
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_R
+Index: 21
+Parent Index: 7
+Position > X: 0.031999998, Y: 0.040000003, Z: 0.033000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA2_R
+Index: 22
+Parent Index: 21
+Position > X: 0.053002756, Y: -8.881784E-17, Z: -8.8817837E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA1_R
+Index: 23
+Parent Index: 22
+Position > X: 0.03400027, Y: 0, Z: 1.3322676E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO3_R
+Index: 24
+Parent Index: 7
+Position > X: 0.109000005, Y: 0.004, Z: 0.034
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO2_R
+Index: 25
+Parent Index: 24
+Position > X: 0.060000002, Y: -3.1086244E-16, Z: 8.326673E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO1_R
+Index: 26
+Parent Index: 25
+Position > X: 0.035996705, Y: -1.7763569E-16, Z: -1.110223E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA3_R
+Index: 27
+Parent Index: 7
+Position > X: 0.11004978, Y: 0, Z: 0.006
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA2_R
+Index: 28
+Parent Index: 27
+Position > X: 0.06900014, Y: 3.3306692E-17, Z: 9.714451E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA1_R
+Index: 29
+Parent Index: 28
+Position > X: 0.041002184, Y: -4.440892E-16, Z: 5.551115E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU3_R
+Index: 30
+Parent Index: 7
+Position > X: 0.106, Y: 0.001, Z: -0.022
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU2_R
+Index: 31
+Parent Index: 30
+Position > X: 0.06300193, Y: -1.7763569E-16, Z: -5.2735593E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU1_R
+Index: 32
+Parent Index: 31
+Position > X: 0.03600053, Y: 6.217249E-16, Z: 6.106227E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO3_R
+Index: 33
+Parent Index: 7
+Position > X: 0.1, Y: 0.004, Z: -0.05
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO2_R
+Index: 34
+Parent Index: 33
+Position > X: 0.050002396, Y: 4.440892E-17, Z: -5.551115E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO1_R
+Index: 35
+Parent Index: 34
+Position > X: 0.028994907, Y: 8.881784E-17, Z: -7.21645E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_L
+Index: 36
+Parent Index: 11
+Position > X: 0.032, Y: -0.040000003, Z: 0.033000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA2_L
+Index: 37
+Parent Index: 36
+Position > X: 0.053, Y: -2.588587E-06, Z: -6.3247904E-07
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA1_L
+Index: 38
+Parent Index: 37
+Position > X: 0.034, Y: -2.039478E-06, Z: -2.5045233E-07
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO3_L
+Index: 39
+Parent Index: 11
+Position > X: 0.109000005, Y: -0.004, Z: 0.034
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO2_L
+Index: 40
+Parent Index: 39
+Position > X: 0.060000002, Y: -2.4424907E-16, Z: 4.440892E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HITO1_L
+Index: 41
+Parent Index: 40
+Position > X: 0.036000002, Y: -4.440892E-16, Z: -1.3322677E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA3_L
+Index: 42
+Parent Index: 11
+Position > X: 0.11000001, Y: 0, Z: 0.006
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA2_L
+Index: 43
+Parent Index: 42
+Position > X: 0.069, Y: 1.7763569E-16, Z: -4.1633365E-18
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:NAKA1_L
+Index: 44
+Parent Index: 43
+Position > X: 0.041, Y: -3.1086244E-16, Z: 2.7755576E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU3_L
+Index: 45
+Parent Index: 11
+Position > X: 0.106, Y: -0.001, Z: -0.022
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU2_L
+Index: 46
+Parent Index: 45
+Position > X: 0.063, Y: 1.5543122E-16, Z: -1.9428903E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUSU1_L
+Index: 47
+Parent Index: 46
+Position > X: 0.036000002, Y: 1.7763569E-16, Z: 1.8735014E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO3_L
+Index: 48
+Parent Index: 11
+Position > X: 0.1, Y: -0.004000019, Z: -0.05
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO2_L
+Index: 49
+Parent Index: 48
+Position > X: 0.05, Y: 1.3322677E-16, Z: 3.3306692E-17
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KO1_L
+Index: 50
+Parent Index: 49
+Position > X: 0.029, Y: 1.7763569E-16, Z: 1.3877788E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIKEN_R
+Index: 51
+Parent Index: 3
+Position > X: 0.120000005, Y: -0.011000001, Z: 0.115
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYU_R
+Index: 52
+Parent Index: 3
+Position > X: 0.112, Y: -0.041, Z: 0.128
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYUJIRI_R
+Index: 53
+Parent Index: 3
+Position > X: 0.08696931, Y: -0.065, Z: 0.120000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIWA_R
+Index: 54
+Parent Index: 3
+Position > X: 0.11000001, Y: -0.018000003, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIMI_R
+Index: 55
+Parent Index: 3
+Position > X: 0.015000001, Y: -0.072000004, Z: 0.088
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UP_R
+Index: 56
+Parent Index: 3
+Position > X: 0.0841, Y: -0.0337, Z: 0.112
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UN_R
+Index: 57
+Parent Index: 3
+Position > X: 0.102, Y: -0.039, Z: 0.098000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HOHO_R
+Index: 58
+Parent Index: 3
+Position > X: 0.10077091, Y: -0.044, Z: 0.078
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BIKON_R
+Index: 59
+Parent Index: 3
+Position > X: 0.11000001, Y: -0.015000001, Z: 0.071
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:CHOBO_R
+Index: 60
+Parent Index: 3
+Position > X: 0.084, Y: -0.040000003, Z: 0.044999998
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIKEN_L
+Index: 61
+Parent Index: 3
+Position > X: 0.120000005, Y: 0.010999999, Z: 0.115
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYU_L
+Index: 62
+Parent Index: 3
+Position > X: 0.112, Y: 0.041, Z: 0.128
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MAYUJIRI_L
+Index: 63
+Parent Index: 3
+Position > X: 0.08696895, Y: 0.065, Z: 0.120000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIWA_L
+Index: 64
+Parent Index: 3
+Position > X: 0.11000001, Y: 0.017999997, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MIMI_L
+Index: 65
+Parent Index: 3
+Position > X: 0.015000001, Y: 0.072, Z: 0.08799999
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UP_L
+Index: 66
+Parent Index: 3
+Position > X: 0.0841, Y: 0.0337, Z: 0.112
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MABUTA_UN_L
+Index: 67
+Parent Index: 3
+Position > X: 0.102, Y: 0.039, Z: 0.098000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HOHO_L
+Index: 68
+Parent Index: 3
+Position > X: 0.10077115, Y: 0.044, Z: 0.078
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BIKON_L
+Index: 69
+Parent Index: 3
+Position > X: 0.11000001, Y: 0.015, Z: 0.071
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:CHOBO_L
+Index: 70
+Parent Index: 3
+Position > X: 0.084, Y: 0.040000003, Z: 0.044999998
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_M
+Index: 71
+Parent Index: 3
+Position > X: 0.117, Y: -3.130058E-10, Z: 0.048
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_R
+Index: 72
+Parent Index: 3
+Position > X: 0.111, Y: -0.016, Z: 0.046
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UP_L
+Index: 73
+Parent Index: 3
+Position > X: 0.111, Y: 0.016, Z: 0.046
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:AGO
+Index: 74
+Parent Index: 3
+Position > X: 0.025999999, Y: 3.3044824E-08, Z: 0.07300001
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_M
+Index: 75
+Parent Index: 74
+Position > X: -9.158755E-09, Y: -0.049000002, Z: 0.087000005
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_R
+Index: 76
+Parent Index: 74
+Position > X: -0.016, Y: -0.047000002, Z: 0.081
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_R
+Index: 77
+Parent Index: 74
+Position > X: -0.025999999, Y: -0.036000002, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_UN_L
+Index: 78
+Parent Index: 74
+Position > X: 0.016, Y: -0.047000002, Z: 0.081
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUCHI_L
+Index: 79
+Parent Index: 74
+Position > X: 0.025999999, Y: -0.036, Z: 0.076
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BERO1
+Index: 80
+Parent Index: 74
+Position > X: 3.0483704E-09, Y: -0.037, Z: 0.034
+Rotation > X: 180, Y: -90, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:BERO2
+Index: 81
+Parent Index: 80
+Position > X: 0.020000001, Y: -0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_L__const_KATA_L__rot_SAKOTSU_L__x0
+Index: 82
+Parent Index: 1
+Position > X: 0.22000001, Y: -4.3232314E-32, Z: 0.000100000005
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:0, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_L_d__offset
+Index: 83
+Parent Index: 82
+Position > X: 0.010000001, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_R__const_KATA_R__rot_SAKOTSU_R__x0
+Index: 84
+Parent Index: 1
+Position > X: 0.22000001, Y: 5.1608023E-17, Z: -0.000100000005
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:0, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SAKOTSU_RT_R_d__offset
+Index: 85
+Parent Index: 84
+Position > X: 0.010000001, Y: -0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATAHIMO_R1_01__swing
+Index: 86
+Parent Index: 85
+Position > X: 0.11000001, Y: 0.03960001, Z: 0.104900375
+Rotation > X: -29.594097, Y: -43.001778, Z: 72.09949
+Scale > X:1.5672E-41, Y:0.120000005, Z:3.4346634E-27
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 8000
+Val3: 6000
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.120000005
+Gravity > X: 5000, Y: 4000
+Constraints > +X: 42, -X: -42, +Y: 21, -Y: -21
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:MUNE2_d__offset
+Index: 87
+Parent Index: 1
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE_R__const_KATA_R__rot_SAKOTSU_R__x0__offset
+Index: 88
+Parent Index: 1
+Position > X: 0.07000001, Y: 0.07000001, Z: -0.00010000002
+Rotation > X: -90, Y: 90, Z: 0
+Scale > X:0, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MUNE2side_d__offset
+Index: 89
+Parent Index: 1
+Position > X: 0.07, Y: 2.1175824E-23, Z: 8.4703296E-23
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:Rkatayoroi_01__swing
+Index: 90
+Parent Index: 85
+Position > X: 0.10309596, Y: 0.016494885, Z: 0.048174392
+Rotation > X: 179.87845, Y: 0.25921583, Z: -25.12034
+Scale > X:1.5717E-41, Y:0.10309279, Z:0.0011605411
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 5000
+Val3: 2500
+Val4: 0
+Val5: 0
+Val6: 0
+Val7: 55
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.10309279
+Gravity > X: 15000, Y: 7500
+Constraints > +X: 0, -X: 0, +Y: 28, -Y: -7
+Rigidity: 0
+Collision Count: 1
+Swing Collision Count: 0
+Collision Bones (Index):
+107
+0
+0
+0
+Flag: 1
+______________________________
+
+Name:KATAHIMO_L2_01__swing
+Index: 91
+Parent Index: 83
+Position > X: 0.099300005, Y: -0.020002706, Z: -0.12052114
+Rotation > X: -84.6925, Y: 7.5254927, Z: -54.650726
+Scale > X:1.5762E-41, Y:0.112, Z:1.5789255E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 4000
+Val3: 2000
+Val4: 3276
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.112
+Gravity > X: 4000, Y: 8000
+Constraints > +X: 14, -X: -42, +Y: 10, -Y: -3
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:MUNE_L__const_KATA_L__rot_SAKOTSU_L__x0__offset
+Index: 92
+Parent Index: 1
+Position > X: 0.07, Y: 0.06999999, Z: 0.0001
+Rotation > X: -90, Y: -90, Z: 0
+Scale > X:0, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUBI_d__offset
+Index: 93
+Parent Index: 2
+Position > X: 7.1054275E-16, Y: 8.4703296E-23, Z: 1.6940659E-22
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:Lkatayoroi_01__swing
+Index: 94
+Parent Index: 83
+Position > X: 0.10311432, Y: -0.016447335, Z: 0.04814433
+Rotation > X: 0.120859385, Y: 0.25792393, Z: 25.106804
+Scale > X:1.5807E-41, Y:0.10309279, Z:0.0011605411
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 4
+Val2: 0
+Dampening: 5000
+Val3: 2500
+Val4: 0
+Val5: 0
+Val6: 0
+Val7: 55
+Influence: X: 75, Y: 100, Z: 100
+Length: 0.10309279
+Gravity > X: 15000, Y: 7500
+Constraints > +X: 0, -X: 0, +Y: 28, -Y: -7
+Rigidity: 0
+Collision Count: 1
+Swing Collision Count: 0
+Collision Bones (Index):
+106
+0
+0
+0
+Flag: 1
+______________________________
+
+Name:KATAHIMO_R2_01__swing
+Index: 95
+Parent Index: 85
+Position > X: 0.09934288, Y: 0.019999921, Z: -0.12049953
+Rotation > X: -95.30747, Y: 7.525529, Z: 54.6507
+Scale > X:1.5851E-41, Y:0.111999996, Z:1.5789255E-29
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 4000
+Val3: 2000
+Val4: 3276
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.111999996
+Gravity > X: 4000, Y: 8000
+Constraints > +X: 42, -X: -14, +Y: 10, -Y: -3
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:SAKOTSU_RT_Lside_d__offset
+Index: 96
+Parent Index: 82
+Position > X: 0.010100001, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_RT_R__prot_x0__offset
+Index: 97
+Parent Index: 5
+Position > X: 0.000100000005, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_RT_L__prot_x0__offset
+Index: 98
+Parent Index: 9
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OPPAI_R1__swing
+Index: 99
+Parent Index: 88
+Position > X: 0.05420001, Y: 0.022100003, Z: -0.14339648
+Rotation > X: -43.52305, Y: -86.24409, Z: 77.380135
+Scale > X:1.5896E-41, Y:0.27999997, Z:-2.1319848E-38
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 3000
+Val3: 0
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 1
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.27999997
+Gravity > X: -32536, Y: 10000
+Constraints > +X: 5, -X: -5, +Y: 2, -Y: -2
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 1
+______________________________
+
+Name:OPPAI_L1__swing
+Index: 100
+Parent Index: 92
+Position > X: 0.05420001, Y: -0.022100003, Z: -0.1433965
+Rotation > X: -136.47699, Y: -86.24407, Z: -77.379974
+Scale > X:1.5941E-41, Y:0.28, Z:-2.1319848E-38
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 3000
+Val3: 0
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 1
+Influence: X: 50, Y: 150, Z: 150
+Length: 0.28
+Gravity > X: -32536, Y: 10000
+Constraints > +X: 5, -X: -5, +Y: 2, -Y: -2
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 1
+______________________________
+
+Name:MUNE1_d__offset
+Index: 101
+Parent Index: 0
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATAHIMO_L1_01__swing
+Index: 102
+Parent Index: 83
+Position > X: 0.10995531, Y: -0.039550073, Z: 0.10492148
+Rotation > X: 29.594427, Y: -43.001842, Z: -72.09974
+Scale > X:1.5986E-41, Y:0.120000005, Z:3.4346634E-27
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 8000
+Val3: 6000
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 0
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.120000005
+Gravity > X: 5000, Y: 4000
+Constraints > +X: 42, -X: -42, +Y: 21, -Y: -14
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 0
+______________________________
+
+Name:SAKOTSU_RT_Rside_d__offset
+Index: 103
+Parent Index: 84
+Position > X: 0.010100001, Y: -0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OPPAI_L2__swing
+Index: 104
+Parent Index: 100
+Position > X: 0.28, Y: -1.7763569E-16, Z: -3.3306692E-17
+Rotation > X: 0, Y: 180, Z: 0
+Scale > X:1.6031E-41, Y:0.080000006, Z:1.8749879E+25
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 1000
+Val3: 0
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 1
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.080000006
+Gravity > X: 27000, Y: 10000
+Constraints > +X: 8, -X: -8, +Y: 4, -Y: -4
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 1
+______________________________
+
+Name:OPPAI_R2__swing
+Index: 105
+Parent Index: 99
+Position > X: 0.27999997, Y: -1.7763569E-16, Z: 3.3306692E-17
+Rotation > X: 0, Y: 180, Z: 0
+Scale > X:1.6076E-41, Y:0.08, Z:1.8749879E+25
+Bone Type: Unknown
+Bone Type Category: None
+- - - - swing - - - - 
+Val1: 0
+Val2: 0
+Dampening: 1000
+Val3: 0
+Val4: 4096
+Val5: 0
+Val6: 0
+Val7: 1
+Influence: X: 100, Y: 100, Z: 100
+Length: 0.08
+Gravity > X: 27000, Y: 10000
+Constraints > +X: 8, -X: -8, +Y: 4, -Y: -4
+Rigidity: 4
+Collision Count: 0
+Swing Collision Count: 0
+Flag: 1
+______________________________
+
+Name:Lkatayoro__shit
+Index: 106
+Parent Index: 98
+Position > X: 0.06738186, Y: 0.024226433, Z: -0.029115766
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:0.075500004, Y:0.125, Z:0.075500004
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:Rkatayoro__shit
+Index: 107
+Parent Index: 97
+Position > X: 0.067426085, Y: 0.0242644, Z: 0.029197387
+Rotation > X: 0, Y: 0, Z: 0
+Scale > X:0.075500004, Y:0.125, Z:0.075500004
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_MD_L__prot_x50__offset
+Index: 108
+Parent Index: 9
+Position > X: 0.2, Y: 2.5896461E-05, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KATA_MD_R__prot_x50__offset
+Index: 109
+Parent Index: 5
+Position > X: 0.2, Y: 2.5896461E-05, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:WAKI_L__slerp_KATA_L__i40_x0__offset
+Index: 110
+Parent Index: 8
+Position > X: 0.000100000005, Y: 0, Z: 1.5777218E-31
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:0.4, Y:7.34697E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:WAKI_R__slerp_KATA_R__i40_x0__offset
+Index: 111
+Parent Index: 4
+Position > X: 0.000100000005, Y: -0, Z: 1.5777218E-31
+Rotation > X: -90, Y: 0, Z: 0
+Scale > X:0.4, Y:3.67349E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIJI_L__rot_UDE_L__z50__offset
+Index: 112
+Parent Index: 9
+Position > X: 0.3, Y: 0.000100000005, Z: -8.881784E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:9.19072E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIJI_R__rot_UDE_R__z50__offset
+Index: 113
+Parent Index: 5
+Position > X: 0.3, Y: 0.000100000005, Z: 8.881784E-16
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:5.5173E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_MD_L__rot_TE_L__x50__offset
+Index: 114
+Parent Index: 10
+Position > X: 0.1, Y: 1.7201408E-09, Z: 3.4665604E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:0.5, Y:1.01019E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:UDE_MD_R__rot_TE_R__x50__offset
+Index: 115
+Parent Index: 6
+Position > X: 0.1, Y: 1.7201408E-09, Z: -3.4665604E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:0.5, Y:6.42848E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIRI_L__slerp_MOMO_L__i50_x0__offset
+Index: 116
+Parent Index: 12
+Position > X: 0.13, Y: 0.000100000005, Z: 0.072000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.10205E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:SHIRI_R__slerp_MOMO_R__i50_x0__offset
+Index: 117
+Parent Index: 12
+Position > X: 0.13, Y: 0.000100000005, Z: -0.072000004
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.102044E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:COMANECI_L__slerp_MOMO_L__i70_x0__offset
+Index: 118
+Parent Index: 12
+Position > X: 0.099999994, Y: -5.493836E-09, Z: 0.102
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.7, Y:1.10205E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:COMANECI_R__slerp_MOMO_R__i70_x0__offset
+Index: 119
+Parent Index: 12
+Position > X: 0.1, Y: -5.493836E-09, Z: -0.102
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.7, Y:1.102044E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_RT_L__prot_x0__offset
+Index: 120
+Parent Index: 17
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_RT_R__prot_x0__offset
+Index: 121
+Parent Index: 13
+Position > X: 0.000100000005, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_MD_L__prot_x50__offset
+Index: 122
+Parent Index: 17
+Position > X: 0.20000103, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:MOMO_MD_R__prot_x50__offset
+Index: 123
+Parent Index: 13
+Position > X: 0.2, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZAKOZO_L__rot_HIZA_L__z50__offset
+Index: 124
+Parent Index: 17
+Position > X: 0.44000003, Y: 0, Z: 0
+Rotation > X: 1.573485E-05, Y: -0, Z: 0
+Scale > X:0.5, Y:1.653756E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:HIZAKOZO_R__rot_HIZA_R__z50__offset
+Index: 125
+Parent Index: 13
+Position > X: 0.44000003, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:1.286414E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHIKUBI_L__rot_ASHI_L__x100__offset
+Index: 126
+Parent Index: 18
+Position > X: 0.4, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1.744874E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:ASHIKUBI_R__rot_ASHI_R__x100__offset
+Index: 127
+Parent Index: 14
+Position > X: 0.4, Y: 0, Z: -0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1.377532E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KUBI_RT__prot_x0__offset
+Index: 128
+Parent Index: 2
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TEKUBI_L__rot_TE_L__x100__offset
+Index: 129
+Parent Index: 10
+Position > X: 0.2, Y: 3.456405E-09, Z: 3.4665656E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:1.01019E-39, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:TEKUBI_R__rot_TE_R__x100__offset
+Index: 130
+Parent Index: 6
+Position > X: 0.2, Y: 3.456405E-09, Z: -3.4665656E-10
+Rotation > X: 90, Y: -0, Z: 0
+Scale > X:1, Y:6.42848E-40, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_L__prot_x50
+Index: 131
+Parent Index: 36
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:OYA3_R__prot_x50
+Index: 132
+Parent Index: 21
+Position > X: 0.000100000005, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:0.5, Y:0, Z:0
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHIplus_d__offset
+Index: 133
+Parent Index: 12
+Position > X: 0, Y: 0, Z: 0
+Rotation > X: -2.8082964E-05, Y: 0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Name:KOSHI_d__offset
+Index: 134
+Parent Index: 12
+Position > X: 8.021786E-08, Y: 0, Z: 0
+Rotation > X: 0, Y: -0, Z: 0
+Scale > X:1, Y:1, Z:1
+Bone Type: Unknown
+Bone Type Category: None
+______________________________
+
+Number of bones: 135
+
+Successfully saved upper_r137_f_I_ChestPlate.nmd.
+
+
+Batch conversion operation completed successfully!

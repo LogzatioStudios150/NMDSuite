@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="NMDSuite.BoneViews.SwingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NMDSuite.BoneViews"
+             mc:Ignorable="d" d:DesignWidth="800" Height="auto">
+    <Grid Height="auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Grid.Column="0" VerticalAlignment="Top" Margin="4,4,4,0">
+            <StackPanel >
+                <TextBlock FontWeight="Light" Text="Length:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="length_Box" Padding="8 2 8 12" Height="40" TabIndex="0"/>
+                <TextBlock FontWeight="Light" Text="Gravity X:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="gravity_x_Box" Padding="8 2 8 12" Height="40" TabIndex="1"/>
+                <TextBlock FontWeight="Light" Text="Gravity Y:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="gravity_y_Box" Padding="8 2 8 12" Height="40" TabIndex="2"/>
+
+                <Separator/>
+                <TextBlock FontWeight="Light" Text="Constraint +X:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="constraint_X_Box" Padding="8 2 8 12" Height="40" TabIndex="3"/>
+                <TextBlock FontWeight="Light" Text="Constraint -X:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="constraint_x_Box" Padding="8 2 8 12" Height="40" TabIndex="4"/>
+                <TextBlock FontWeight="Light" Text="Constraint +Y:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="constraint_Y_Box" Padding="8 2 8 12" Height="40" TabIndex="5"/>
+                <TextBlock FontWeight="Light" Text="Constraint -Y:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="constraint_y_Box" Padding="8 2 8 12" Height="40" TabIndex="6"/>
+                <Separator/>
+
+                <TextBlock FontWeight="Light" Text="Rigidity?:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="rigidity_Box" Padding="8 2 8 12" Height="40" TabIndex="7"/>
+                <TextBlock FontWeight="Light" Text="Flag:" Foreground="White" Padding="8 5 8 0"/>
+                <TextBox FontWeight="Light" x:Name="flag_Box" Padding="8 2 8 12" Height="40" TabIndex="8"/>
+
+            </StackPanel>
+
+        </Border>
+
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Grid.Column="1" VerticalAlignment="Top" Margin="0,4,4,0">
+            <StackPanel>
+
+                <TextBlock FontWeight="Light" Text="Val1:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val1_Box" Padding="8 2 8 12" Height="40" TabIndex="9"/>
+                <TextBlock FontWeight="Light" Text="Val2:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val2_Box" Padding="8 2 8 12" Height="40" TabIndex="10"/>
+                <TextBlock FontWeight="Light" Text="Dampening:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="dampening_Box" Padding="8 2 8 12" Height="40" TabIndex="11"/>
+                <TextBlock FontWeight="Light" Text="Val3:" Foreground="White" Padding="8 5 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val3_Box" Padding="8 2 8 12" Height="40" TabIndex="12"/>
+                <TextBlock FontWeight="Light" Text="Val4:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val4_Box" Padding="8 2 8 12" Height="40" TabIndex="13"/>
+                <TextBlock FontWeight="Light" Text="Val5:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val5_Box" Padding="8 2 8 12" Height="40" TabIndex="14"/>
+                <TextBlock FontWeight="Light" Text="Val6:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val6_Box" Padding="8 2 8 12" Height="40" TabIndex="15"/>
+                <TextBlock FontWeight="Light" Text="Val7:" Foreground="White" Padding="8 6 8 0"/>
+                <TextBox FontWeight="Light" x:Name="val7_Box" Padding="8 2 8 12" Height="40" TabIndex="16"/>
+                <Separator/>
+                <TextBlock FontWeight="Light" Text="X Influence:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="influence_x_Box" Padding="8 2 8 12" Height="40" TabIndex="17"/>
+                <TextBlock FontWeight="Light" Text="Y Influence:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="influence_y_Box" Padding="8 2 8 12" Height="40" TabIndex="18"/>
+                <TextBlock FontWeight="Light" Text="Z Influence:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="influence_z_Box" Padding="8 2 8 12" Height="40" TabIndex="19"/>
+                
+
+            </StackPanel>
+
+        </Border>
+        
+    </Grid>
+    
+</UserControl>

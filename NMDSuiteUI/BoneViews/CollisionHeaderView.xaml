@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="NMDSuite.BoneViews.CollisionHeaderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NMDSuite.BoneViews"
+             mc:Ignorable="d" 
+              d:DesignWidth="800" Height="auto">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="White" BorderThickness="1,1,1,1" Grid.Column="0" VerticalAlignment="Top" Margin="4,4,4,0">
+            <StackPanel >
+                <TextBlock FontWeight="Light" Text="X Rotation Offset:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Header1_Box" Padding="8 2 8 12" Height="40" TabIndex="0"/>
+                <TextBlock FontWeight="Light" Text="Y Rotation Offset:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Header2_Box" Padding="8 2 8 12" Height="40" TabIndex="1"/>
+                <TextBlock FontWeight="Light" Text="Z Rotation Offset:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Header3_Box" Padding="8 2 8 12" Height="40" TabIndex="2"/>
+                <TextBlock FontWeight="Light" Text="Length:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Header4_Box" Padding="8 2 8 12" Height="40" TabIndex="3"/>
+
+
+            </StackPanel>
+
+        </Border>
+
+        <Border  BorderBrush="White" BorderThickness="1,1,1,1" Grid.Column="1" VerticalAlignment="Top" Margin="4,4,4,0">
+            <StackPanel >
+                <TextBlock FontWeight="Light" Text="X Scale:" Foreground="White" Padding="8 8 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Scale_x_Box" Padding="8 2 8 12" Height="40" TabIndex="4"/>
+                <TextBlock FontWeight="Light" Text="Y Scale:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Scale_y_Box" Padding="8 2 8 12" Height="40" TabIndex="5"/>
+                <TextBlock FontWeight="Light" Text="Z Scale:" Foreground="White" Padding="8 0 8 0"/>
+                <TextBox FontWeight="Light" x:Name="Scale_z_Box" Padding="8 2 8 12" Height="40" TabIndex="6"/>
+                
+
+
+            </StackPanel>
+
+        </Border>
+    </Grid>
+</UserControl>

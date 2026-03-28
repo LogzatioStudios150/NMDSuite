@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\LogzatioStudios\source\repos\NMDSuite\NMDSuiteUI\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+    <ActiveDebugProfile>NMDSuite</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="BoneViews\CollisionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\ConstRotationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\ConstView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\HeaderScaleView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\HeaderView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\RandEyeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\RandLidView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\RotationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\ScissorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\SlerpView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BoneViews\SwingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\NewFromNMDPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\NewFromTemplate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BoneViews\CollisionPositionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\CollisionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\ConstRotationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\ConstView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\CollisionHeaderView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\HeaderScaleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\HeaderView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\RandEyeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\RandLidView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\RotationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\ScissorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\SlerpView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BoneViews\SwingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\NewFromNMDPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\NewFromTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Splash.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
