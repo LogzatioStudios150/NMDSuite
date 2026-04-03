@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NMDSuite</id>
+    <version>1.0.3</version>
+    <authors>LogzatioStudios150</authors>
+    <description>Tool used to convert and create NMD files for SCVI.</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="NMDBase" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="CommunityToolkit.Mvvm" version="8.2.0" exclude="Build,Analyzers" />
+        <dependency id="DiscordRichPresence" version="1.1.3.18" exclude="Build,Analyzers" />
+        <dependency id="Markdig" version="0.22.0" exclude="Build,Analyzers" />
+        <dependency id="Markdig.Wpf" version="0.5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\LogzatioStudios\source\repos\NMDSuite\NMDSuiteUI\bin\Release\net6.0-windows\NMDSuite.runtimeconfig.json" target="lib\net6.0-windows7.0\NMDSuite.runtimeconfig.json" />
+    <file src="C:\Users\LogzatioStudios\source\repos\NMDSuite\NMDSuiteUI\bin\Release\net6.0-windows\NMDSuite.dll" target="lib\net6.0-windows7.0\NMDSuite.dll" />
+  </files>
+</package>

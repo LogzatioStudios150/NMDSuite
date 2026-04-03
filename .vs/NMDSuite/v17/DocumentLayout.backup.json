@@ -1,7 +1,98 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "A:\\NMDSuite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\a91223bb08225236dafd26c081648e01c11c8857d034fcb829b9c130b322f376\\App.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\panels\\newfromnmdpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\panels\\newfromnmdpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\panels\\newfromtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\panels\\newfromtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\panels\\newfromtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\panels\\newfromtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\bonedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\bonedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\boneviews\\collisionheaderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\boneviews\\collisionheaderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\boneviews\\rotationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\boneviews\\rotationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\boneviews\\slerpview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\boneviews\\slerpview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\boneviews\\constrotationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\boneviews\\constrotationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\547a6e5de7979771287dd7883c2aa8795059ca9ec9c1f08b9caf919ce22e8bad\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\bonetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\bonetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\githubapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\githubapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\commands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\commands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\style\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\style\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +100,279 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Splash.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Splash.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\Splash.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-20T21:04:59.175Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\MainWindow.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\MainWindow.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-28T22:42:12.636Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\MainWindow.xaml.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NMDSuiteUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAIAAAAAAAAAAAvwDsIAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-28T22:41:00.923Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NMDUtil.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDUtil.cs",
+              "RelativeDocumentMoniker": "NMDBase\\NMDUtil.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\NMDUtil.cs",
+              "RelativeToolTip": "NMDBase\\NMDUtil.cs",
+              "ViewState": "AgIAAIICAAAAAAAAAAAEwKYCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-07T06:34:11.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NMDBase.csproj",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
+              "RelativeDocumentMoniker": "NMDBase\\NMDBase.csproj",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
+              "RelativeToolTip": "NMDBase\\NMDBase.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-02T20:59:01.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NMDBase",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
+              "RelativeDocumentMoniker": "NMDBase\\NMDBase.csproj",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
+              "RelativeToolTip": "NMDBase\\NMDBase.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-02T20:59:34.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewFromTemplate.xaml.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromTemplate.xaml.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Panels\\NewFromTemplate.xaml.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromTemplate.xaml.cs",
+              "RelativeToolTip": "NMDSuiteUI\\Panels\\NewFromTemplate.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:59:35.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CollisionHeaderView.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\CollisionHeaderView.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\BoneViews\\CollisionHeaderView.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\CollisionHeaderView.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\BoneViews\\CollisionHeaderView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T05:03:01.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BoneData.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\BoneData.cs",
+              "RelativeDocumentMoniker": "NMDBase\\BoneData.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\BoneData.cs",
+              "RelativeToolTip": "NMDBase\\BoneData.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:10:08.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SlerpView.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\SlerpView.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\BoneViews\\SlerpView.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\SlerpView.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\BoneViews\\SlerpView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-10T01:37:09.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\547a6e5de7979771287dd7883c2aa8795059ca9ec9c1f08b9caf919ce22e8bad\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\547a6e5de7979771287dd7883c2aa8795059ca9ec9c1f08b9caf919ce22e8bad\\MainWindow.cs [Read Only]",
+              "ViewState": "AgIAAKAGAAAAAAAAAAAEwLsGAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:39:29.503Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\a91223bb08225236dafd26c081648e01c11c8857d034fcb829b9c130b322f376\\App.cs",
+              "ToolTip": "C:\\Users\\LogzatioStudios\\AppData\\Local\\Temp\\.vsdbgsrc\\a91223bb08225236dafd26c081648e01c11c8857d034fcb829b9c130b322f376\\App.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAANAAAAAmAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:38:30.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewFromTemplate.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromTemplate.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Panels\\NewFromTemplate.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromTemplate.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\Panels\\NewFromTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-09T00:17:59.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RotationView.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\RotationView.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\BoneViews\\RotationView.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\RotationView.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\BoneViews\\RotationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T18:29:31.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Splash.xaml.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Splash.xaml.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml.cs",
+              "RelativeToolTip": "NMDSuiteUI\\Splash.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:40:28.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewFromNMDPanel.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromNMDPanel.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Panels\\NewFromNMDPanel.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Panels\\NewFromNMDPanel.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\Panels\\NewFromNMDPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T05:59:40.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NMDType.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDType.cs",
+              "RelativeDocumentMoniker": "NMDBase\\NMDType.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\NMDType.cs",
+              "RelativeToolTip": "NMDBase\\NMDType.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T05:01:52.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConstRotationView.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\ConstRotationView.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\BoneViews\\ConstRotationView.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\BoneViews\\ConstRotationView.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\BoneViews\\ConstRotationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T18:49:45.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\App.xaml.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\App.xaml.cs",
+              "RelativeToolTip": "NMDSuiteUI\\App.xaml.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAD4v7cAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T01:10:16.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BoneType.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\BoneType.cs",
+              "RelativeDocumentMoniker": "NMDBase\\BoneType.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDBase\\BoneType.cs",
+              "RelativeToolTip": "NMDBase\\BoneType.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwE4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T21:40:02.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GithubAPI.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\GithubAPI.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\GithubAPI.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\GithubAPI.cs",
+              "RelativeToolTip": "NMDSuiteUI\\GithubAPI.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:33:52.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Commands\\Commands.cs",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Commands\\Commands.cs",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Commands\\Commands.cs",
+              "RelativeToolTip": "NMDSuiteUI\\Commands\\Commands.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-28T22:44:11.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Style\\Style.xaml",
+              "RelativeDocumentMoniker": "NMDSuiteUI\\Style\\Style.xaml",
+              "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Style\\Style.xaml",
+              "RelativeToolTip": "NMDSuiteUI\\Style\\Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-05-04T06:27:47.739Z"
             }
           ]
         }

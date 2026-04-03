@@ -8,6 +8,7 @@ using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Numerics;
+using System.Diagnostics.Eventing.Reader;
 
 namespace NMDBase
 {
@@ -669,17 +670,25 @@ namespace NMDBase
                 jObj["rotation"] = rotObj;
 
                 JObject scaleObj = new JObject();
-                scaleObj["x"] = data.Scale.X;
-                scaleObj["y"] = data.Scale.Y;
-                scaleObj["z"] = data.Scale.Z;
-                jObj["scale"] = scaleObj;
-
-                if (data.Name.EndsWith("__swing") || data.Bonetype.Category == BoneTypeCategory.Swing)
+                if(data.Bonetype.Category == BoneTypeCategory.Collision)
+                {
+                    scaleObj["x"] = data.Scale.X;
+                    scaleObj["y"] = data.Scale.Y;
+                    scaleObj["z"] = data.Scale.Z;
+                    jObj["scale"] = scaleObj;
+                }
+                else
                 {
                     scaleObj["x"] = 1.0;
                     scaleObj["y"] = 1.0;
                     scaleObj["z"] = 1.0;
                     jObj["scale"] = scaleObj;
+                }
+
+
+                if (data.Name.EndsWith("__swing") || data.Bonetype.Category == BoneTypeCategory.Swing)
+                {
+                    
 
                     JObject swingObj = new JObject();
                     swingObj["collision_data"] = new JArray(data.CollisionList[0], data.CollisionList[1], data.CollisionList[2], data.CollisionList[3]);

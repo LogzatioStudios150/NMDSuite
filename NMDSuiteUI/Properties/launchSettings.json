@@ -1,7 +1,8 @@
 {
   "profiles": {
     "NMDSuite": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "nativeDebugging": false
     },
     "NMDSuite - CLI": {
       "commandName": "Project",

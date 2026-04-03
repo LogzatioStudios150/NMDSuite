@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUI\\NMDSuiteUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\NMDBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\NMDBase.csproj",
+        "projectName": "NMDBase",
+        "projectPath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\NMDBase.csproj",
+        "packagesPath": "C:\\Users\\LogzatioStudios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LogzatioStudios\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Aspose.Zip": {
+              "target": "Package",
+              "version": "[22.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUI\\NMDSuiteUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUI\\NMDSuiteUI.csproj",
+        "projectName": "NMDSuiteUI",
+        "projectPath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUI\\NMDSuiteUI.csproj",
+        "packagesPath": "C:\\Users\\LogzatioStudios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDSuiteUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LogzatioStudios\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\NMDBase.csproj": {
+                "projectPath": "C:\\Users\\LogzatioStudios\\source\\repos\\NMDSuite\\NMDBase\\NMDBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
