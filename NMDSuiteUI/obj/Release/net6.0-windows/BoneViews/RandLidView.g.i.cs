@@ -69,7 +69,7 @@ namespace NMDSuite.BoneViews {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NMDSuite;component/boneviews/randlidview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NMDSuite;V1.0.6.0;component/boneviews/randlidview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\BoneViews\RandLidView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
