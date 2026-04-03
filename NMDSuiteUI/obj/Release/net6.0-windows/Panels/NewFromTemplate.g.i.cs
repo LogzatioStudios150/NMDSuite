@@ -77,7 +77,7 @@ namespace NMDSuite.Panels {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NMDSuite;V1.0.6.0;component/panels/newfromtemplate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NMDSuite;component/panels/newfromtemplate.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Panels\NewFromTemplate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

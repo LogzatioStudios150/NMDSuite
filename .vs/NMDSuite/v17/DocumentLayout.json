@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "A:\\NMDSuite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|a:\\nmdsuite\\nmdbase\\nmdbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{86385831-E876-4D45-84EE-88B5DB2ED38F}|NMDBase\\NMDBase.csproj|solutionrelative:nmdbase\\nmdbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|solutionrelative:nmdsuiteui\\splash.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E39EE64-B801-459A-96C8-C858BC03A2F9}|NMDSuiteUI\\NMDSuite.csproj|a:\\nmdsuite\\nmdsuiteui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -100,11 +100,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Splash.xaml",
               "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml",
               "RelativeDocumentMoniker": "NMDSuiteUI\\Splash.xaml",
@@ -112,7 +112,8 @@
               "RelativeToolTip": "NMDSuiteUI\\Splash.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2023-04-20T21:04:59.175Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NMDSuiteUI\\MainWindow.xaml.cs",
@@ -141,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NMDUtil.cs",
               "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDUtil.cs",
               "RelativeDocumentMoniker": "NMDBase\\NMDUtil.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NMDBase.csproj",
               "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
               "RelativeDocumentMoniker": "NMDBase\\NMDBase.csproj",
@@ -171,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NMDBase",
               "DocumentMoniker": "A:\\NMDSuite\\NMDBase\\NMDBase.csproj",
               "RelativeDocumentMoniker": "NMDBase\\NMDBase.csproj",
@@ -271,15 +272,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Splash.xaml.cs",
               "DocumentMoniker": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml.cs",
               "RelativeDocumentMoniker": "NMDSuiteUI\\Splash.xaml.cs",
               "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Splash.xaml.cs",
               "RelativeToolTip": "NMDSuiteUI\\Splash.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwD0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T20:40:28.376Z"
+              "WhenOpened": "2024-06-21T20:40:28.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -372,7 +374,8 @@
               "ToolTip": "A:\\NMDSuite\\NMDSuiteUI\\Style\\Style.xaml",
               "RelativeToolTip": "NMDSuiteUI\\Style\\Style.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2023-05-04T06:27:47.739Z"
+              "WhenOpened": "2023-05-04T06:27:47.739Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -59,7 +59,7 @@ namespace NMDBase
         {
             InitializeComponent();
             UpdatePanel.IsVisibleChanged += UpdatePanel_IsVisibleChanged;
-            _currentVersion = "1.1.0";
+            _currentVersion = "1.1.1";
             if (Directory.Exists(tempFolderPath))
             {
                 Directory.Delete(tempFolderPath, true);

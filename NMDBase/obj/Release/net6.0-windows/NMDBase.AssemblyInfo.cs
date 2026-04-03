@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NMDBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2f9afc3f22b814459add843f9f11204c29f4fa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86c0cb5f051863a265c3a43ba6051c9c46dbf7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NMDBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NMDBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

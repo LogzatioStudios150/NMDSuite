@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Tool used to convert and create NMD files for SCVI.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.6.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.6+f2f9afc3f22b814459add843f9f11204c29f4fa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.6+a86c0cb5f051863a265c3a43ba6051c9c46dbf7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NMDSuite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NMDSuite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.6.0")]
